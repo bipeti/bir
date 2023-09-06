@@ -1,0 +1,316 @@
+/*
+	Design by Free CSS Templates
+	http://www.freecsstemplates.org
+	Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+/* Basic */
+
+*
+{
+	margin: 0em;
+	padding: 0em;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+body
+{
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 10pt;
+	background-color: #000000;
+	color: #6F5129;
+	margin-top: -2em;
+}
+
+a
+{
+	color: #667700;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+/* Outer */
+
+#outer
+{
+	width: 1002px;
+	margin: 2em auto;
+}
+
+/* Header */
+
+#header
+{
+	padding: 1.75em;
+	text-align: center;
+}
+
+#header h1
+{
+	font-size: 2em;
+}
+
+#header h2
+{
+	font-size: 1em;
+	color: #747474;
+}
+
+#header h1 a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Menu */
+
+#menu
+{
+	background: #000000 url('images/a1.jpg') top center no-repeat;
+	height: 94px;
+	width: 1002px;
+	margin-top: -1em;
+}
+
+#menu ul
+{
+	list-style: none;
+	text-align: center;
+	position: relative;
+	top: 45px;
+}
+
+#menu li
+{
+	padding: 0em 1.5em 0em 1.5em;
+	display: inline;
+}
+
+#menu li a
+{
+	color: #3A2000;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 0.9em;
+	letter-spacing: 0.2em;
+}
+
+#menu li a:hover
+{
+	text-decoration: underline;
+}
+
+/* Content */
+
+#xbg1
+{
+	position: absolute;
+	z-index: 1;
+	background: #000000 url('images/a2.jpg') top center no-repeat;
+	width: 1002px;
+	height: 98px;
+}
+
+#content
+{
+	background: #000000 url('images/a3.jpg') top center repeat-y;
+}
+
+#content p
+{
+	margin-bottom: 2em;
+	line-height: 1.5em;
+}
+
+#content h2,h3,h4,h5,h6
+{
+	position: relative;
+	color: #3F2109;
+	margin-bottom: 1em;
+	padding-bottom: 0.5em;
+	border-bottom: solid 1px #DFBF99;
+}
+
+#content h2
+{
+	font-size: 1.5em;
+}
+
+#content h3
+{
+	font-size: 1.1em;
+}
+
+#content ul
+{
+	margin-bottom: 2em;
+	padding-left: 1em;
+}
+
+#content blockquote
+{
+	margin-bottom: 2em;
+}
+
+#content blockquote p
+{
+	border-left: solid 8px #667700;
+	padding-left: 1em;
+	margin-bottom: 0em;
+}
+
+#content table
+{
+	margin-bottom: 2em;
+}
+
+#content table th
+{
+	text-align: left;
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+#content table td
+{
+	padding: 0.5em;
+}
+
+#content table tr.rowA
+{
+	background-color: #DFBD99;
+	color: inherit;
+}
+
+#content table tr.rowB
+{
+	background-color: #EFDCC2;
+	color: inherit;
+}
+
+#content table tr.rowC
+{
+	background-color: #CCCCD8;
+	color: inherit;
+	font-style: italic;
+}
+
+/* Primary Content */
+
+#primaryContentContainer
+{
+	position: relative;
+	z-index: 2;
+	float: left;
+	margin-left: 0em;
+	margin-top: -2em;
+	width: 100%;
+}
+
+#primaryContent
+{
+	margin: 2em 3.0em 0em 17em;
+	padding: 0em 0em 0em 1.5em;
+	border-left: solid 1px #DFBF99;
+}
+
+.post {
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+	line-height: 200%;
+	background: url(images/a5.jpg) repeat-x left top;
+}
+
+.szurkepost {
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+	line-height: 200%;
+	background: url(images/a8.jpg) repeat-x left top;
+}
+
+.title {
+	margin: 0;
+	padding: 5px 15px 0px 15px;
+	font-weight: bold;
+	font-size: 1.1em;
+	letter-spacing: 0em;
+        font-variant: small-caps
+}
+
+.title a {
+	border-bottom: none;
+}
+
+.title a:hover {
+}
+
+.byline {
+	margin: -33px 15px 20px 16px;
+}
+
+.entry {
+	margin: -15px 0px 0px 0px;
+	padding: 0px 15px;
+	text-align: justify;
+}
+
+.links {
+	margin: -30px 0px 0px 0px;
+	font-size: 11px;
+}
+
+.links a {
+	display: block;
+	border: none;
+}
+
+.links a:hover {
+}
+
+.links .more {
+	float: right;
+	text-transform: lowercase;
+}
+
+.links .comments {
+	float: left;
+	padding-left: 20px;
+}
+
+/* Secondary Content */
+
+#secondaryContent
+{
+	position: relative;
+	z-index: 2;
+	float: left;
+	width: 12em;
+	margin-left: 3em;
+	margin-top: 2em;
+}
+
+/* Footer */
+
+#footer
+{
+	width: 1002px;
+	height: 56px;
+	padding-top: 30px;
+	background: #000000 url('images/a4.jpg') top center no-repeat;
+	text-align: center;
+}
+
+.clear
+{
+	clear: both;
+}
